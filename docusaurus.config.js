@@ -15,17 +15,15 @@ const config = {
   favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: "https://laratransmanager.github.io",
+  url: "https://laratransmanager.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/LaraTransManager/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "soufian212", // Usually your GitHub org/user name.
   projectName: "LaraTransManager-docs", // Usually your repo name.
-  deploymentBranch: "gh-pages",
-  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
