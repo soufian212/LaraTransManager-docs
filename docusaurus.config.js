@@ -42,6 +42,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '0.2.0-beta',
+            },
+          },
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -87,6 +93,12 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Docs",
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownItemsBefore: [], // Add items before the versions
+            dropdownItemsAfter: [],  // Add items after the versions
           },
           {
             href: "https://github.com/soufian212/laratransmanager",
