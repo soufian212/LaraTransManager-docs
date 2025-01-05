@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "soufian212", // Usually your GitHub org/user name.
-  projectName: "LaraTransManager", // Usually your repo name.
+  projectName: "LaraTransManager-docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
