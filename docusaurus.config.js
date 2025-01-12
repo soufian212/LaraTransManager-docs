@@ -45,7 +45,7 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: '0.2.0-beta',
+              label: '0.3.0-beta',
             },
           },
           sidebarPath: "./sidebars.js",
@@ -79,6 +79,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      
+
+      algolia: {
+        appId: 'LLO5BATOAQ', // Replace with your Algolia app ID
+        apiKey: 'a605e363bbf00c76f7404f009ba9db4a', // Replace with your Algolia API key
+        indexName: 'laratransmanager', // Replace with your Algolia index name
+        contextualSearch: true, // Optional: Enable contextual search
+        searchParameters: {}, // Optional: Add additional search parameters
+      },
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
